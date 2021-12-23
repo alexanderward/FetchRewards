@@ -4,7 +4,7 @@
 ### Docker
 - `docker-compose up`
 ### Local Install
-- Make sure you have Python 3.x
+- Make sure you have Python 3.x (https://www.python.org/downloads/)
 - `pip install -r requirements.txt`
 - `python manage.py runserver`
 
