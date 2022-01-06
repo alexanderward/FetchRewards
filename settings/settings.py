@@ -84,6 +84,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# Set transactions to atomic so we rollback on exceptions
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
 
